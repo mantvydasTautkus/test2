@@ -111,12 +111,20 @@ svg{
 
 
 
-
+.showcase-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .showcase{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+img{
+    vertical-align:middle;
 }
 .img-wraper{
     height: 400px;
